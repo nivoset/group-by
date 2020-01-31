@@ -1,6 +1,6 @@
 {
   "name": "grouping-by",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a library giving you group by via the reduce functionality",
   "main": "index.js",
   "repository": {
