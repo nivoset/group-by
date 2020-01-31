@@ -1,6 +1,6 @@
 {
   "name": "grouping-by",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a library giving you group by via the reduce functionality",
   "main": "index.js",
   "repository": {
@@ -8,9 +8,10 @@
     "url": "https://github.com/nivoset/group-by"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest index.spec.js",
+    "test:coverage": "jest index.spec.js --coverage"
   },
-  "author": "",
+  "author": "Ben Koop",
   "license": "ISC",
   "devDependencies": {
     "jest": "^25.1.0"

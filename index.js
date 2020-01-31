@@ -5,7 +5,7 @@ module.exports = (groupingBy) => {
         : (item) => item[groupingBy];;
 
     return (group, item) => {
-        if (!initialized) {
+        if (!initialized && group !== {}) {
             initialized = true;
             group = {[groupFunction(group)] : [group] }
         }
